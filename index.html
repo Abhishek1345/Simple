@@ -7,7 +7,94 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>--> 
   <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
- </head> 
+ <style type="text/css" id="dcoder_stylesheet">*{user-select:none;}
+body{margin:0;}
+#bar{
+  position:sticky;
+  height:50px;
+  max-width:500px;
+  background:rgba(0,0,0,0.7);
+  }
+  #bar div{
+    user-select:none;
+  
+  color:white;
+  width:33px;
+  border:2px;
+  padding:16px 14px;
+  display:block;
+  float:left;
+  }
+  #bar div:active{
+    background:black;
+    }
+    h1{
+      text-decoration:underline;
+      font-family:cursive;
+      background:linear-gradient(to right,red,yellow);
+      -webkit-background-clip:text;
+      color:transparent;
+      
+      }
+      p{
+        display:inline-block;
+        font-family:fantasy;
+        user-select:none;
+        }
+        
+        input {
+          position:relative;
+          //left:50px;
+          display:inline-block;
+          border-top:none;
+          border-left:none;
+          border-right:none;
+          border-bottom:2px rgba(100,100,255,1) solid;
+          color:black;
+          }
+          input:focus{
+        outline:none;
+          }
+          .btn{
+            border:none;
+            border-radius:20%;
+            padding:12px 12px;
+            color:white;
+            background:hsl(120,50%,50%);
+            user-select:none;
+            }
+            .btn:focus{
+            outline:none;
+            }
+            .btn:active{
+            box-shadow:2px 2px  5px green,-2px -2px  5px green;
+            }
+            center+div{
+              max-width:500px;
+              height:auto;
+              border:2px red dashed;
+              padding:4px 10px;
+              }
+              h2{
+                font-family:cursive;
+                background:linear-gradient(to left,green,yellow);
+                -webkit-background-clip:text;
+                color:transparent;
+                text-transform:capitalize;
+                }
+                h2+div{
+                  border:2px rgb(20,20,20) solid;
+                  width:200px;
+                  height:50px;
+                  }
+                 div > i{
+                
+                  margin:10px;
+                  }
+                  a{
+                    text-decoration:none;
+                    color:white;
+                    }</style></head> 
  <body> 
   <div id="bar"> 
    <div id="option"> 
